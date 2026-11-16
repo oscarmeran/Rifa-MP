@@ -37,6 +37,7 @@ ARCHIVO_BD = "rifa.db"
 REINICIAR_AL_INICIAR = False
 
 # Servidor local (normalmente no hay que tocar esto)
+import os
 HOST = "0.0.0.0"
 PUERTO = int(os.environ.get("PORT", 8000))
 ABRIR_NAVEGADOR = False
